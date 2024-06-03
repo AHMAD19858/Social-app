@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --primary: 250 124 8;
+    --muted: 147 163 176;
+}
+
+body{
+    background-color: #F5F6FA;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+    /* Remove any list-style markers */
+    textarea::-webkit-input-placeholder {
+      color: transparent;
+    }
+    textarea:-ms-input-placeholder {
+      color: transparent;
+    }
+    textarea {
+      resize: none;
+    }
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #070606 #cecbcb;
+  }
+@layer components {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+  
+  
+  }
